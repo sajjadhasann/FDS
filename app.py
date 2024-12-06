@@ -57,4 +57,4 @@ with gr.Blocks(css=css) as demo:
     
     data.select(select_trans, None, index)
 
-demo.launch(share=True)
+demo.launch()
